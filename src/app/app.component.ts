@@ -10,13 +10,13 @@ export class AppComponent {
   constructor() {
     // Your web app's Firebase configuration
     var firebaseConfig = {
-      apiKey: "AIzaSyDCEhsuZu3w-9qAULYCztYBpVuOp_Uq2xw",
-      authDomain: "post-7fc35.firebaseapp.com",
-      databaseURL: "https://post-7fc35.firebaseio.com",
-      projectId: "post-7fc35",
-      storageBucket: "post-7fc35.appspot.com",
-      messagingSenderId: "9499483585",
-      appId: "1:9499483585:web:b50b6fdb155d727aaae340"
+      apiKey: "AIzaSyD0GhoNJMh4NWVGXeI2PAHkQ6Ls9hU9F1c",
+      authDomain: "angular-blog-f2f78.firebaseapp.com",
+      databaseURL: "https://angular-blog-f2f78.firebaseio.com",
+      projectId: "angular-blog-f2f78",
+      storageBucket: "angular-blog-f2f78.appspot.com",
+      messagingSenderId: "892913249322",
+      appId: "1:892913249322:web:629d3d6c7247431f45a753"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
