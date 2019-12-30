@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {Post} from "../models/post.model";
 import {PostsService} from "../services/posts.service";
 import {Router} from "@angular/router";
 import {Subscription} from "rxjs";
+import { Post } from '../models/post.model';
 
 @Component({
   selector: 'app-post-list',

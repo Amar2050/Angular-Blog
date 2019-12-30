@@ -15,6 +15,7 @@ import {PostsService} from "./services/posts.service";
 import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import {DatePipe} from "@angular/common";
+import { AchatComponent } from './achat/achat.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {DatePipe} from "@angular/common";
     SignInComponent,
     SignUpComponent,
     HeaderComponent,
-    FourOhFourComponent
+    FourOhFourComponent,
+    AchatComponent
   ],
   imports: [
     BrowserModule,

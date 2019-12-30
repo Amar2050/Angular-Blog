@@ -6,11 +6,13 @@ import {PostListComponent} from "./post-list/post-list.component";
 import {PostFormComponent} from "./post-list/post-form/post-form.component";
 import {FourOhFourComponent} from "./four-oh-four/four-oh-four.component";
 import {AuthGuardService} from "./services/auth-guard.service";
+import { AchatComponent } from './achat/achat.component';
 
 
 const routes: Routes = [
   {path: 'auth/sign-in', component: SignInComponent},
   {path: 'auth/sign-up', component: SignUpComponent},
+  { path: 'acheter', canActivate: [AuthGuardService], component: AchatComponent },
   {path: 'posts', canActivate: [AuthGuardService], component: PostListComponent},
   {path: 'posts/new', canActivate: [AuthGuardService], component: PostFormComponent},
   {path: '', redirectTo: 'posts', pathMatch: 'full'},
